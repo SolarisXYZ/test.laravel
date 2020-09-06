@@ -37568,11 +37568,14 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { attrs: { id: "footer" } }, [
+    return _c("div", { attrs: { id: "footer-block" } }, [
       _c("div", { staticClass: "container" }, [
         _c("div", { staticClass: "row" }, [
           _c("div", { staticClass: "col-lg-4" }, [
-            _c("div", { attrs: { id: "footer-logo" } }),
+            _c("img", {
+              staticClass: "col-md-7",
+              attrs: { src: "images/Group_1@2x.png", alt: "Italian Trulli" }
+            }),
             _vm._v(" "),
             _c("p", [
               _vm._v(
@@ -37586,54 +37589,50 @@ var staticRenderFns = [
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "col-lg-2" }, [
-            _c("li", { staticClass: "first expanded" }, [
-              _vm._v("\n                    Menu\n                    "),
-              _c("ul", { staticClass: "menu new1" }, [
-                _c("li", { staticClass: "leaf" }, [_vm._v("Heading")]),
-                _vm._v(" "),
-                _c("li", { staticClass: "leaf" }, [_vm._v("Heading")]),
-                _vm._v(" "),
-                _c("li", { staticClass: "leaf" }, [_vm._v("Heading")]),
-                _vm._v(" "),
-                _c("li", { staticClass: "leaf" }, [_vm._v("Heading")])
-              ])
+            _c("p", { staticClass: "li-header" }, [_vm._v("Menu")]),
+            _vm._v(" "),
+            _c("ul", { staticClass: "menu new1" }, [
+              _c("li", [_vm._v("Heading")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("Heading")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("Heading")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("Heading")])
             ])
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "col-lg-2" }, [
-            _c("li", { staticClass: "first expanded" }, [
-              _vm._v("\n                    Menu\n                    "),
-              _c("ul", { staticClass: "menu new1" }, [
-                _c("li", { staticClass: "leaf" }, [_vm._v("Heading")]),
-                _vm._v(" "),
-                _c("li", { staticClass: "leaf" }, [_vm._v("Heading")]),
-                _vm._v(" "),
-                _c("li", { staticClass: "leaf" }, [_vm._v("Heading")])
-              ])
+            _c("p", { staticClass: "li-header" }, [_vm._v("Menu")]),
+            _vm._v(" "),
+            _c("ul", { staticClass: "menu" }, [
+              _c("li", [_vm._v("Heading")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("Heading")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("Heading")])
             ])
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "col-lg-2" }, [
-            _c("li", { staticClass: "first expanded" }, [
-              _vm._v("\n                    Menu\n                    "),
-              _c("ul", { staticClass: "menu new1" }, [
-                _c("li", { staticClass: "leaf" }, [_vm._v("Heading")]),
-                _vm._v(" "),
-                _c("li", { staticClass: "leaf" }, [_vm._v("Heading")])
-              ])
+            _c("p", { staticClass: "li-header" }, [_vm._v("Menu")]),
+            _vm._v(" "),
+            _c("ul", { staticClass: "menu new1" }, [
+              _c("li", [_vm._v("Heading")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("Heading")])
             ])
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "col-lg-2" }, [
-            _c("li", { staticClass: "first expanded" }, [
-              _vm._v("\n                    Menu\n                    "),
-              _c("ul", { staticClass: "menu new1" }, [
-                _c("li", { staticClass: "leaf" }, [_vm._v("Heading")]),
-                _vm._v(" "),
-                _c("li", { staticClass: "leaf" }, [_vm._v("Heading")]),
-                _vm._v(" "),
-                _c("li", { staticClass: "leaf" }, [_vm._v("Heading")])
-              ])
+            _c("p", { staticClass: "li-header" }, [_vm._v("Menu")]),
+            _vm._v(" "),
+            _c("ul", { staticClass: "menu new1" }, [
+              _c("li", [_vm._v("Heading")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("Heading")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("Heading")])
             ])
           ])
         ])
@@ -37670,7 +37669,10 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "hero-image" }, [
-      _c("div", { staticClass: "logo" }),
+      _c("img", {
+        staticClass: "header-logo",
+        attrs: { src: "images/Group_1@2x.png" }
+      }),
       _vm._v(" "),
       _c("div", { staticClass: "hero-text" }, [
         _c("h1", [_vm._v("EXAMPLE DEMO")])
@@ -37706,15 +37708,143 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "hero-image" }, [
-      _c("div", { staticClass: "container" }, [
-        _c("div", { staticClass: "logo" })
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "hero-text" }, [
-        _c("h1", [_vm._v("EXAMPLE DEMO")])
-      ])
-    ])
+    return _c(
+      "div",
+      { staticClass: "container", attrs: { id: "main-block" } },
+      [
+        _c("div", { staticClass: "main-sub-block" }, [
+          _c("div", { staticClass: "offset-md-1" }, [
+            _c("h6", [_vm._v("01")]),
+            _vm._v(" "),
+            _c("h3", [_vm._v("Heading")]),
+            _vm._v(" "),
+            _c("p", { staticClass: "col-md-5" }, [
+              _vm._v(
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure aliquid ipsum nostrum aperiam non quaerat porro ad amet ipsa. Quas dicta doloremque porro repellat officia illo, repellendus aliquam mollitia neque."
+              )
+            ]),
+            _vm._v(" "),
+            _c(
+              "button",
+              {
+                staticClass: "btn btn-primary",
+                staticStyle: {
+                  "background-color": "#fff",
+                  color: "#000",
+                  "border-color": "#000",
+                  "padding-left": "2em",
+                  "padding-right": "2em"
+                },
+                attrs: { type: "submit" }
+              },
+              [_vm._v("Book Now")]
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "main-sub-block" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("img", {
+              staticClass: "col-md-7",
+              attrs: { src: "images/image-water@2x.png", alt: "Italian Trulli" }
+            }),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-md-4 offset-md-1" }, [
+              _c("h6", [_vm._v("02")]),
+              _vm._v(" "),
+              _c("h4", [_vm._v("Lorem ipsum dolor sit amet consectetur.")])
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "main-sub-block" }, [
+          _c("div", { staticClass: "offset-md-1" }, [
+            _c("h6", [_vm._v("03")]),
+            _vm._v(" "),
+            _c("h3", [_vm._v("Heading")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "row" }, [
+              _c("div", { staticClass: "col-md-6" }, [
+                _c("h4", [_vm._v("Lorem ipsum dolor sit amet, consetetur.")]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v(
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure aliquid ipsum nostrum aperiam non quaerat porro ad amet ipsa. Quas dicta doloremque porro repellat officia illo, repellendus aliquam mollitia neque."
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-md-6" }, [
+                _c("form", [
+                  _c("div", { staticClass: "form-group" }, [
+                    _c("input", {
+                      staticClass: "form-control",
+                      attrs: {
+                        type: "name",
+                        id: "nameFormControlInput1",
+                        placeholder: "Your Name"
+                      }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "row" }, [
+                    _c("div", { staticClass: "form-group col-md-6" }, [
+                      _c("input", {
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "date",
+                          id: "example-date-input",
+                          placeholder: "Pick a day"
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "form-group col-md-6" }, [
+                      _c("input", {
+                        staticClass: "form-control",
+                        attrs: {
+                          type: "time",
+                          id: "example-time-input",
+                          placeholder: "Select a time"
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group" }, [
+                    _c("textarea", {
+                      staticClass: "form-control",
+                      attrs: {
+                        id: "messageleFormControlTextarea1",
+                        rows: "5",
+                        placeholder: "Your Message"
+                      }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "button",
+                    {
+                      staticClass: "btn btn-primary",
+                      staticStyle: {
+                        "background-color": "#000",
+                        "border-color": "#000",
+                        "padding-left": "2em",
+                        "padding-right": "2em"
+                      },
+                      attrs: { type: "submit" }
+                    },
+                    [_vm._v("Place Booking")]
+                  )
+                ])
+              ])
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "main-sub-block" })
+      ]
+    )
   }
 ]
 render._withStripped = true
