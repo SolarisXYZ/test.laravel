@@ -5,40 +5,32 @@
                 <div class="col-lg-4">
                     <img class="col-md-7" src="images/Group_1@2x.png" alt="Italian Trulli" />
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed diam nonumy.</p>
-                    <h2>BOOK NOW</h2>
-                    <p>&#169; 2019 RIVER. All Rights Reserved.</p>
+                    <a for="contact-form">Book Now</a>
                 </div>
                 <div class="col-lg-2">
                     <p class="li-header">Menu</p>
-                    <ul class="menu new1">
-                        <li>Heading</li>
-                        <li>Heading</li>
-                        <li>Heading</li>
-                        <li>Heading</li>
-                    </ul>
+                    <p>Heading</p>
+                    <p>Heading</p>
+                    <p>Heading</p>
+                    <p>Heading</p>
                 </div>
                 <div class="col-lg-2">
                     <p class="li-header">Menu</p>
-                    <ul class="menu">
-                        <li>Heading</li>
-                        <li>Heading</li>
-                        <li>Heading</li>
-                    </ul>
+                    <p>Heading</p>
+                    <p>Heading</p>
+                    <p>Heading</p>
+                    <p>Heading</p>
                 </div>
                 <div class="col-lg-2">
                     <p class="li-header">Menu</p>
-                    <ul class="menu new1">
-                        <li>Heading</li>
-                        <li>Heading</li>
-                    </ul>
+                    <p>Heading</p>
+                    <p>Heading</p>
                 </div>
                 <div class="col-lg-2">
                     <p class="li-header">Menu</p>
-                    <ul class="menu new1">
-                        <li>Heading</li>
-                        <li>Heading</li>
-                        <li>Heading</li>
-                    </ul>
+                    <p>Heading</p>
+                    <p>Heading</p>
+                    <p>Heading</p>
                 </div>
             </div>
         </div>

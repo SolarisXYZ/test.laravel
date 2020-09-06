@@ -25,6 +25,7 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 Vue.component('headerblock', require('./components/HeaderBlock.vue').default);
 Vue.component('mainblock', require('./components/MainBlock.vue').default);
 Vue.component('footerblock', require('./components/FooterBlock.vue').default);
+Vue.component('copyrightblock', require('./components/CopyrightBlock.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
